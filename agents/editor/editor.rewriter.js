@@ -8,7 +8,7 @@ import { REWRITE_SYSTEM_PROMPT } from "./editor.prompt.js";
  */
 export async function rewriteWeakestSection(postJSON, weakestSection, weaknessReason) {
   // ─────────────────────────────────────────────
-  // 1. SAFE GUARD (CRITICAL FIX)
+  // 1. SAFE GUARD
   // ─────────────────────────────────────────────
   const sections = Array.isArray(postJSON.sections)
     ? postJSON.sections
